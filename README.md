@@ -33,3 +33,23 @@ Hello World
 
 (type C-a C-\ then y to exit)
 ```
+
+# check info via picotool
+
+```
+picotool info -bp -f
+The device was asked to reboot into BOOTSEL mode so the command can be executed.
+
+Program Information
+ name:         blink
+ description:  This is a test binary.
+ features:     UART stdin / stdout
+               USB stdin / stdout
+
+Fixed Pin Information
+ 0:   UART0 TX
+ 1:   UART0 RX
+ 25:  On-board LED
+
+      The device was asked to reboot back into application mode.
+```
