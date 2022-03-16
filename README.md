@@ -19,7 +19,7 @@ openocd -f interface/picoprobe.cfg -f target/rp2040.cfg -c "program blink.elf ve
 
 or just use [picoprog.sh](https://gist.github.com/hidsh/4dc19284ddea311825950b2a1be621bc)
 
-# check the output from `puts()` in pi-pico via usb-serial
+# check the output from pi-pico
 
 ```
 screen /dev/tty.usbmodem142401
